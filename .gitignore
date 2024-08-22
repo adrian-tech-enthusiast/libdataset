@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignore bin and build directories.
+bin
+build
+
+# Ignore IDE files/directories.
+.vscode
